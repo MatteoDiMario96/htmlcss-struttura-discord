@@ -17,6 +17,8 @@ li{
 a{
     text-decoration: none;
     color: white;
+    padding-right: .5rem;
+    font-size: .8rem;
 }
 
 button{
@@ -39,6 +41,11 @@ footer{
     justify-content: space-around;
 }
 
+.logo-principale{
+    width: 8rem;
+    height: 3rem;
+}
+
 .barra-logo-nav{
     display: flex;
     justify-content: space-around;
@@ -55,11 +62,11 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 1.1rem;
-
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     padding:3rem 8rem;
 
 
-    background-color: rgb(173, 246, 222);
 }
 
 .button-side{
