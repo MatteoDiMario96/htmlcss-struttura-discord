@@ -18,6 +18,21 @@ button{
     border-radius: 15px;
 }
 
+ul{
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: rgb(117, 123, 133);
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
 .barra-logo-nav{
     display: flex;
     justify-content: space-around;
@@ -67,3 +82,12 @@ section.main{
     align-items: center;
 }
 
+
+div.main-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+div.loghi{
+    display:flex
+}
