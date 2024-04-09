@@ -3,3 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border: transparent;
+    border-radius: 15px;
+}
+
+.barra-logo-nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    align-items: center;
+
+    height: 100px;
+    background-color: #255ee9;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+
+    padding:3rem 8rem;
+
+    background-color: rgb(173, 246, 222);
+}
+
+.button-side{
+    font-size: .9rem;
+    padding: .4rem .6rem;
+}
+
+.download-mac,
+.apri-discord{
+    padding: .3rem;
+    margin: .3rem;
+    font-size: 1em;
+}
