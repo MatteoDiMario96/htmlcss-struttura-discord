@@ -9,8 +9,14 @@ body{
     margin: 0 auto;
 }
 
+header,
+li{
+    color:white;
+}
+
 a{
     text-decoration: none;
+    color: white;
 }
 
 button{
@@ -71,6 +77,7 @@ footer{
 
 section.main{
     display: flex;
+    align-items: center;
 
     background-color: rgb(212, 174, 248);
     border: 1px solid rgb(251, 85, 85);
@@ -91,3 +98,8 @@ div.main-footer{
 div.loghi{
     display:flex
 }
+
+.immagine{
+    width: 100%;
+}
+
