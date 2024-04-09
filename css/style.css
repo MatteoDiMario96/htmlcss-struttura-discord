@@ -99,7 +99,7 @@ div.loghi{
     display:flex
 }
 
-.immagine{
+.immagine:not(.immagine-colonna){
     width: 100%;
 }
 
