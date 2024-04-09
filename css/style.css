@@ -7,6 +7,12 @@
 body{
     width: 90%;
     margin: 0 auto;
+    font-family: "Cabin", sans-serif;
+    
+}
+
+nav{
+    margin-right: 2.9rem;
 }
 
 header,
@@ -18,7 +24,11 @@ a{
     text-decoration: none;
     color: white;
     padding-right: .5rem;
-    font-size: .8rem;
+    font-size: .6rem;
+}
+
+h1{
+    padding-bottom: 1rem;
 }
 
 button{
@@ -41,6 +51,17 @@ footer{
     justify-content: space-around;
 }
 
+nav>a{
+    padding-right: .5rem;
+    padding-left: .4rem;
+}
+
+p.sottotitolo{
+    line-height: 1rem;
+    font-size: .7rem;
+
+}
+
 .logo-principale{
     width: 8rem;
     height: 3rem;
@@ -51,8 +72,6 @@ footer{
     justify-content: space-around;
     padding: 1.5rem 0;
     align-items: center;
-
-
     background-color: #255ee9;
 }
 
@@ -64,7 +83,8 @@ footer{
     font-size: 1.1rem;
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    padding:3rem 8rem;
+    padding:5.5rem 19rem 3rem;
+    text-align: center;
 
 
 }
@@ -72,15 +92,17 @@ footer{
 .button-side{
     font-size: .9rem;
     padding: .4rem .6rem;
+    align-self: flex-end;
 }
 
 .download-mac,
 .apri-discord,
 .botton-download{
-    padding: .3rem 1rem;
-    margin: .3rem;
-    font-size: 1.1em;
+    padding: .4rem .7rem;
+    margin: 1rem .4rem;
+    font-size: .6rem;
 }
+
 
 section.main{
     display: flex;
@@ -110,3 +132,10 @@ div.loghi{
     width: 100%;
 }
 
+.download-mac{
+    background-color: white;
+}
+.apri-discord{
+    background-color: #23272a;
+    color: white;
+}
