@@ -21,10 +21,10 @@ button{
 .barra-logo-nav{
     display: flex;
     justify-content: space-around;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     align-items: center;
 
-    height: 100px;
+
     background-color: #255ee9;
 }
 
@@ -37,6 +37,7 @@ button{
 
     padding:3rem 8rem;
 
+
     background-color: rgb(173, 246, 222);
 }
 
@@ -46,8 +47,23 @@ button{
 }
 
 .download-mac,
-.apri-discord{
-    padding: .3rem;
+.apri-discord,
+.botton-download{
+    padding: .3rem 1rem;
     margin: .3rem;
-    font-size: 1em;
+    font-size: 1.1em;
 }
+
+section.main{
+    display: flex;
+
+    background-color: rgb(212, 174, 248);
+    border: 1px solid rgb(251, 85, 85);
+}
+
+.column-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
