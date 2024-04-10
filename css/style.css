@@ -1,141 +1,147 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    width: 90%;
-    margin: 0 auto;
+.container{
+    max-width: 1300px;
     font-family: "Cabin", sans-serif;
-    
-}
-
-nav{
-    margin-right: 2.9rem;
-}
-
-header,
-li{
-    color:white;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-    padding-right: .5rem;
-    font-size: .6rem;
-}
-
-h1{
-    padding-bottom: 1rem;
-}
-
-button{
-    border: transparent;
-    border-radius: 15px;
 }
 
 ul{
     list-style-type: none;
+}
 
+nav{
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+
+    padding: 3rem;
+
+    background-color: rgb(198, 247, 247);
+}
+
+main {
+
+    background-color: rgb(205, 250, 159);
 }
 
 footer{
-    background-color: rgb(117, 123, 133);
-    padding: 2rem 1rem;
+    background-color: rgb(134, 134, 134);
+}
+
+button{
+    padding: .3em .5em;
+    border-radius: 15px;
+    border: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav > ul {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
 }
 
-nav>a{
-    padding-right: .5rem;
-    padding-left: .4rem;
+nav a {
+    padding-right: 1rem;
 }
 
-p.sottotitolo{
-    line-height: 1rem;
-    font-size: .7rem;
-
+.jumbo > h1{
+    padding-bottom: 1.3rem;
 }
 
-.logo-principale{
-    width: 8rem;
-    height: 3rem;
-}
-
-.barra-logo-nav{
-    display: flex;
-    justify-content: space-around;
-    padding: 1.5rem 0;
-    align-items: center;
-    background-color: #255ee9;
-}
-
-.header{
+section.jumbo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.1rem;
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-    padding:5.5rem 19rem 3rem;
     text-align: center;
 
-
+    padding: 2rem 18rem;
+    
+    background-color: rgb(198, 151, 243);
 }
 
-.button-side{
-    font-size: .9rem;
-    padding: .4rem .6rem;
-    align-self: flex-end;
+section.jumbo > p {
+    padding-bottom: .6rem;
 }
 
-.download-mac,
-.apri-discord,
-.botton-download{
-    padding: .4rem .7rem;
-    margin: 1rem .4rem;
-    font-size: .6rem;
-}
-
-
-section.main{
+.contenitore-sezioni-colonna{
     display: flex;
+    justify-content: center;
     align-items: center;
-
-    background-color: rgb(212, 174, 248);
-    border: 1px solid rgb(251, 85, 85);
+    padding: 2rem;
 }
 
-.column-center{
+.colonna-grande{
+    width: 55%;
+}
+
+.colonna-piccola{
+    width: 38%;
+}
+
+main section {
+    padding: 1rem 1rem;
+}
+
+.contenitore-sezione-verticale,
+.contenitore-sezione-bottoni {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
+.contenitore-sezione-verticale *,
+.contenitore-sezione-bottoni * {
+    padding: .4rem;
+}
 
-div.main-footer{
+.main-footer{
+    display: flex;
+    flex-wrap: wrap;
+
+    border-bottom: 1px solid black;
+}
+.social{
+    width: 19%;
+}
+
+.collegamenti{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 77%;
+}
+
+.row{
     display: flex;
     flex-direction: column;
 }
 
-div.loghi{
-    display:flex
+.social,
+.collegamenti{
+    padding: 1rem;
 }
 
-.immagine:not(.immagine-colonna){
-    width: 100%;
+.footer {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 1rem;
 }
 
-.download-mac{
-    background-color: white;
+.simboli-social {
+    display: flex;
 }
-.apri-discord{
-    background-color: #23272a;
-    color: white;
+
+.simboli-social p {
+    padding: .3rem .7rem;
 }
